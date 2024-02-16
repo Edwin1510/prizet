@@ -1,0 +1,27 @@
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: skyblue;
+    width:900px;
+    }
+    .card {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 0px;
+    margin: 16px;
+    background-color: white;
+    text-align: top;
+    width:250px;
+    text-align:center;
+    
+    font-size: 10px;
+    font-style: normal;
+    } 
+    .blur{
+    filter:blur(1px);
+    } 
+    .card>button{
+    background-color:skyblue;
+    } 
+    
